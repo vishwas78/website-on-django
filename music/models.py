@@ -17,4 +17,4 @@ class song(models.Model):
     song_title = models.CharField(max_length=250)
 
     def __str__(self):
-        return self.song_title + ", " + self.album.album_tile
+        return self.song_title + ", " + self.album.album_title
